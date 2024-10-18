@@ -5,14 +5,26 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(5, 20vw);
-    grid-template-rows: repeat(5, 20vh);
+    grid-template-columns: repeat(20, 5vw);
+    grid-template-rows: repeat(20, 5vh);
 }
 
 #infoBubble {
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 20;
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 20;
+
+    border: solid;
    
+}
+
+#menu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 20;
+
+    border: solid;
+    
 }
