@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #0077b6;
     margin: 0;
 }
 
@@ -14,8 +14,9 @@ body {
     grid-column-end: 20;
     grid-row-start: 2;
     grid-row-end: 20;
-
     border: solid;
+    border-color: #90e0ef;
+    border-radius: 20px;
    
 }
 
@@ -24,9 +25,12 @@ body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 20;
-
     border: solid;
-    
+}
+
+.submenu {
+    border: solid;
+    border-color: #90e0ef;
 }
 
 #inicio {
@@ -34,9 +38,7 @@ body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 8;
-
-    border: solid;
-    
+    border-top-right-radius: 20px 20px;
 }
 
 #infoMenu {
@@ -44,9 +46,6 @@ body {
     grid-column-end: 3;
     grid-row-start: 8;
     grid-row-end: 14;
-
-    border: solid;
-    
 }
 
 #contato{
@@ -54,6 +53,5 @@ body {
     grid-column-end: 3;
     grid-row-start: 14;
     grid-row-end: 20;
-
-    border: solid;
+    border-bottom-right-radius: 20px 20px;
 }
