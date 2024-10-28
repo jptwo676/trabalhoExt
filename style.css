@@ -9,11 +9,10 @@ body {
     grid-template-rows: repeat(20, 5vh);
 }
 
-/*
 #infoBubble {
-    grid-column-start: 4;
+    grid-column-start: 2;
     grid-column-end: 20;
-    grid-row-start: 2;
+    grid-row-start: 4;
     grid-row-end: 20;
 
     border: solid;
@@ -23,11 +22,12 @@ body {
     background-color: white; 
    
 }
-*/
 
 .submenu {
+    /*
     border: solid;
     border-color: black;
+*/
     
     background-color: white; 
     color: red;
@@ -51,16 +51,26 @@ body {
 }
 
 #infoMenu {
-    grid-column-start: 9;
-    grid-column-end: 13;
+    grid-column-start: 8;
+    grid-column-end: 14;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-#contato{
+#contato {
     grid-column-start: 15;
     grid-column-end: 21;
     grid-row-start: 1;
     grid-row-end: 3;
     border-bottom-right-radius: 20px 20px;
+}
+
+#texto {
+      font-size: 1.5rem;
+      font-family: Helvetica, Arial, sans-serif;text-align: center;
+}
+
+#titulo {
+    text-align: center;
+    
 }
