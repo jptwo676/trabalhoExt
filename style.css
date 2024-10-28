@@ -9,6 +9,7 @@ body {
     grid-template-rows: repeat(20, 5vh);
 }
 
+/*
 #infoBubble {
     grid-column-start: 4;
     grid-column-end: 20;
@@ -22,14 +23,7 @@ body {
     background-color: white; 
    
 }
-
-#menu {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 20;
-    border: solid;
-}
+*/
 
 .submenu {
     border: solid;
@@ -49,24 +43,24 @@ body {
 
 #inicio {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 8;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
     border-top-right-radius: 20px 20px;
 
 }
 
 #infoMenu {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 8;
-    grid-row-end: 14;
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 #contato{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 14;
-    grid-row-end: 20;
+    grid-column-start: 15;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 3;
     border-bottom-right-radius: 20px 20px;
 }
