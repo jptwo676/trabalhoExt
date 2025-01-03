@@ -41,6 +41,14 @@ botaoContato.addEventListener("click", function(){
   conteudoInicio.textContent = "";
   conteudoInfo.textContent = "";
   titulo.textContent = "Entre em contato!"
-  conteudoContato.textContent = "Instagram: @acamadosmaisamadosofc Telefone: (43) 99922-3245"
+  conteudoContato.textContent = `
+  As reuniões acontecem quinzenalmente no Centro Comunitario do Jardim Lorem. \n 
+  Você pode entrar em contato para sanar suas duvidas em nosso instagram
+  ou pelo telefone. \n
+  Se for sua primeira vez leve documentos com foto do acamados para realizar um
+  cadastro e poder retirar as fraldas. \n
+
+  Instagram: @stock \n
+  Telefone: (43) 94002-8922`
 });
 
