@@ -1,81 +1,82 @@
 body {
-    background-color: white;
-    margin: 0;
+  background-color: white;
+  margin: 0;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(20, 5vw);
-    grid-template-rows: repeat(20, 5vh);
+  display: grid;
+  grid-template-columns: repeat(20, 5vw);
+  grid-template-rows: repeat(20, 5vh);
 }
 
 /* caixa de texto */
 #infoBubble {
-    grid-column-start: 2;
-    grid-column-end: 20;
-    grid-row-start: 4;
-    grid-row-end: 20;
+  grid-column-start: 2;
+  grid-column-end: 20;
+  grid-row-start: 4;
+  grid-row-end: 20;
 
-    border: solid;
-    border-color: black;
-    border-radius: 20px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
 
-    background-color: white; 
-   
+  background-color: white; 
+ 
 }
 
 /* menus */
 .submenu {
-    /*
-    border: solid;
-    border-color: black;
+  /*
+  border: solid;
+  border-color: black;
 */
-    
-    background-color: white; 
-    color: #1697c9;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font: 1.3rem "Fira Sans", sans-serif;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  background-color: white; 
+  color: #1697c9;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 1.3rem "Fira Sans", sans-serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submenu:hover
+{
+  background-color :#10769e ;
 }
 
 /* grids dos botoes */
 #inicio {
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    border-top-right-radius: 20px 20px;
-
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 #infoMenu {
-    grid-column-start: 8;
-    grid-column-end: 14;
-    grid-row-start: 1;
-    grid-row-end: 3;
+  grid-column-start: 8;
+  grid-column-end: 14;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 #contato {
-    grid-column-start: 15;
-    grid-column-end: 21;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    border-bottom-right-radius: 20px 20px;
+  grid-column-start: 15;
+  grid-column-end: 21;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 /* textos */
 #texto {
-      font-size: 1.5rem;
-      font-family: Helvetica, Arial, sans-serif;text-align: center;
+    font-size: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;text-align: center;
 }
 
 #titulo {
-    text-align: center;
-    
+  text-align: center;
 }
