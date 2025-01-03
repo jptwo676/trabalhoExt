@@ -3,25 +3,29 @@ var botaoInfo = document.getElementById("infoMenu");
 var botaoContato = document.getElementById("contato");
 var conteudoInicio = document.getElementById("infoInicio");
 var conteudoContato = document.getElementById("infoContato")
+var conteudoInfo = document.getElementById("infoInfo");
 var titulo = document.getElementById("titulo");
 
 conteudoInicio.textContent = "O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas."
 
 botaoInicio.addEventListener("click", function(){
+    console.log("inicio on")
     titulo.textContent = "Início"
     conteudoInicio.textContent = "";
     conteudoContato.textContent = "";
-    conteudoInicio.textContent = "O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas."
+    conteudoInicio.textContent = ""
     
 });
 
 botaoInfo.addEventListener("click", function(){
-    conteudoInicio.textContent = "";
-    console.log("botao info ativado")
+    conteudoInfo.textContent = `O projeto acamados + amados é uma iniciativa 
+  não governamental que apoia familias e cuidadores de pessoas acamadas.`;
+    console.log("info on")
 
 });
 
 botaoContato.addEventListener("click", function(){
+    console.log("contato on")
     conteudoInicio.textContent = "";
     conteudoContato.textContent = "";
     titulo.textContent = "Entre em contato!"
