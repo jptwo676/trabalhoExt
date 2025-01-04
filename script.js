@@ -10,7 +10,7 @@ conteudoInicio.textContent = `O projeto acamados + amados é uma iniciativa não
   governamental que apoia familias e cuidadores de pessoas acamadas.`;
 
 botaoInicio.addEventListener("click", function(){
-  console.log("inicio on")
+  console.log("inicio on");
   titulo.textContent = "Início"
   conteudoInicio.textContent = "bla bla";
   conteudoInfo.textContent = "";
@@ -22,16 +22,16 @@ botaoInfo.addEventListener("click", function(){
 
   conteudoInfo.setAttribute('style', 'white-space: pre;');
 
-  titulo.textContent = "Informações!"
+  titulo.textContent = "Informações";
   conteudoInicio.textContent = "";
   conteudoContato.textContent = "";
   conteudoInfo.textContent = "O projeto Acamados + Amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas. \r\n";
   conteudoInfo.textContent += "Através de reuniões quinzenais o projeto vem distribuindo fraldas, alimentos equipamentos méidicos e também servindo como um grupo de apoio para os acamados e seus cuidadores. \r\n";
-  conteudoInfo.textContent += "Idealizado por Dona Inês, o projeto existe a mais de 15 anos e conta com  varios voluntarios e parceiros. 
-  conteudoInfo.textContent += "Com a ajuda fornecida o projeto presta tambem atendimento odontologico e faz visitas regulares as casas cadastradas para"
-  conteudoInfo.textContent += "se certificar que as orientações estão sendo seguidas e ajudar no que for necessario. \r\n;
+  conteudoInfo.textContent += "Idealizado por Dona Inês, o projeto existe a mais de 15 anos e conta com  varios voluntarios e parceiros. \r\n";
+  conteudoInfo.textContent += "Com a ajuda fornecida o projeto presta tambem atendimento odontologico e faz visitas regulares as casas cadastradas para";
+  conteudoInfo.textContent += "se certificar que as orientações estão sendo seguidas e ajudar no que for necessario. \r\n";
 
-  console.log("info on")
+  console.log("info on");
 
 });
 
@@ -39,7 +39,7 @@ botaoContato.addEventListener("click", function(){
 
   conteudoContato.setAttribute('style', 'white-space: pre;');
 
-  titulo.textContent = "Entre em contato!"
+  titulo.textContent = "Entre em contato"
   console.log("contato on")
   conteudoInicio.textContent = "";
   conteudoInfo.textContent = "";
