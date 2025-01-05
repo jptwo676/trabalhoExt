@@ -6,6 +6,17 @@ var conteudoContato = document.getElementById("infoContato")
 var conteudoInfo = document.getElementById("infoInfo");
 var titulo = document.getElementById("titulo");
 
+var img1 = stock1.png
+var img2 = stock2.jpg
+var img3 = stock3.jpg
+
+function trocarImg(){
+  document.getElementById("imagens").src = imgAtual;
+  let auxiliar = imgAtual;
+  imgAtual = imgAnterior;
+  imgAnterior = auxiliar;
+}
+
 conteudoInicio.textContent = `O projeto acamados + amados é uma iniciativa não
   governamental que apoia familias e cuidadores de pessoas acamadas.`;
 
@@ -43,12 +54,14 @@ botaoContato.addEventListener("click", function(){
   console.log("contato on")
   conteudoInicio.textContent = "";
   conteudoInfo.textContent = "";
+
   conteudoContato.textContent = "As reuniões acontecem quinzenalmente no Centro Comunitario do Jardim Tupi. \r\n";
   conteudoContato.textContent += "Você pode entrar em contato para sanar suas duvidas em nosso instagram ou pelo telefone. \r\n";
   conteudoContato.textContent += "Se for sua primeira vez leve documentos com fotos do acamados para realizar um cadastro e poder retirar as fraldas. \r\n";
-
   conteudoContato.textContent += "Instagram: @stock \r\n";
   conteudoContato.textContent += "Telefone: (43) 94002-8922 \r\n";
-
 });
+
+
+
 
