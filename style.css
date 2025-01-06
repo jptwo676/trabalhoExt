@@ -24,6 +24,28 @@ body {
  
 }
 
+#infoTitulo {
+
+}
+
+#infoStatic {
+  position: relative;
+  top: 10px; left: 60px;
+
+}
+
+#infoInt {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+
+}
+
+#foto { 
+  width: 500px;
+  height: 450px;
+}
+
 /* menus */
 .submenu {
   /*
@@ -71,11 +93,6 @@ body {
   grid-row-end: 3;
 }
 
-.fotos {
-  position: static;
-  top: 40px;
-  left: 40px;
-}
 
 /* textos */
 #texto {
