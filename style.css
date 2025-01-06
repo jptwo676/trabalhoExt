@@ -30,20 +30,20 @@ body {
 
 #infoStatic {
   position: relative;
-  top: 10px; left: 60px;
+  top: 10px; 
+  left: 60px;
 
 }
 
-#infoInt {
-  position: relative;
-  bottom: 100px;
-  left: 1200px;
-
-}
 
 #foto { 
-  width: 500px;
-  height: 450px;
+  position: relative;
+  object-position: right bottom;
+  object-fit: none;
+  width: 400px;
+  height: 325px;
+  bottom: 40px;
+  left: 1250px;
 }
 
 /* menus */
