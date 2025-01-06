@@ -38,12 +38,12 @@ body {
 
 #foto { 
   position: relative;
-  object-position: right bottom;
-  object-fit: none;
-  width: 400px;
-  height: 325px;
-  bottom: 40px;
-  left: 1250px;
+  /* object-position: right bottom; */
+  object-fit: fill;
+  width: 500px;
+  height: 425px;
+  top: 10px;
+  left: 1150px;
 }
 
 /* menus */
