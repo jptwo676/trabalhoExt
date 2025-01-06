@@ -10,7 +10,7 @@ body {
 }
 
 /* caixa de texto */
-#infoBubble {
+#infoWrapper {
   grid-column-start: 2;
   grid-column-end: 20;
   grid-row-start: 4;
@@ -69,6 +69,12 @@ body {
   grid-column-end: 21;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+.fotos {
+  position: static;
+  top: 40px;
+  left: 40px;
 }
 
 /* textos */
