@@ -42,11 +42,13 @@ body {
   object-fit: fill;
   width: 500px;
   height: 425px;
-  top: 10px;
   left: 1150px;
 }
 
+/* botoes da fotos */
 .fotoButton {
+  height: 50px;
+  width: 200px;
   padding: 0 20px;
   border: 0;
   text-align: center;
@@ -55,12 +57,22 @@ body {
   border: 2px solid;
   border-color: black;
   border-radius: 5px;
-
 }
 
 .fotoButton:hover {
   color: #fff;
   background-color :#10769e ;
+}
+
+#ante {
+}
+
+#prox {
+  /*
+  position: absolute;
+  left: 100px;
+  top 150px;
+  */
 }
 
 /* menus */
