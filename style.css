@@ -46,6 +46,23 @@ body {
   left: 1150px;
 }
 
+.fotoButton {
+  padding: 0 20px;
+  border: 0;
+  text-align: center;
+  color: #1697c9;
+  background-color : #fff ;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 5px;
+
+}
+
+.fotoButton:hover {
+  color: #fff;
+  background-color :#10769e ;
+}
+
 /* menus */
 .submenu {
   /*
@@ -68,7 +85,8 @@ body {
 
 .submenu:hover
 {
-  background-color :#10769e ;
+  color: #fff;
+  background-color :#10769e;
 }
 
 /* grids dos botoes */
