@@ -1,8 +1,34 @@
 var botaoInicio = document.getElementById("inicio");
 var botaoInfo = document.getElementById("infoMenu");
 var botaoContato = document.getElementById("contato");
-var info = document.getElementById("info");
+var info = document.getElementById("contentText");
 var titulo = document.getElementById("titulo");
+
+var imgAtual = document.getElementById("foto");
+var img1 = "stock1.png";
+var img2 = "stock2.jpg";
+var img3 = "stock3.jpg";
+
+const imgs = [img1, img2, img3];
+
+//mudar img
+//TODO debugar essa merda 
+var index = 0;
+function imgChange(direcao) {
+  console.log("Running func, index = " + index);
+  if(direcao = "ante") {
+    if(index > 0) {
+      index--;
+    }
+    imgAtual.src = imgs[index];
+  } else if(direcao = "prox") {
+    if(index < 3) {
+      index++;
+    } 
+    imgAtual.src = imgs[index];
+  }
+}
+
 
 //seta o conteudo de inicio
 info.textContent = `O projeto acamados + amados é uma iniciativa não
