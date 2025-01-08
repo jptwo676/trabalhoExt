@@ -1,87 +1,10 @@
-body {
-  background-color: white;
-  margin: 0;
-}
-
-.wrapper {
+#gridWrapper {
   display: grid;
   grid-template-columns: repeat(20, 5vw);
-  grid-template-rows: repeat(20, 5vh);
+  grid-template-rows: repeat(20, 5vh);;
 }
 
-/* caixa de texto */
-#infoWrapper {
-  grid-column-start: 2;
-  grid-column-end: 20;
-  grid-row-start: 4;
-  grid-row-end: 20;
-
-  border: solid;
-  border-color: black;
-  border-radius: 20px;
-
-  background-color: white; 
- 
-}
-
-#infoTitulo {
-
-}
-
-#infoStatic {
-  position: relative;
-  top: 10px; 
-  left: 60px;
-
-}
-
-
-#foto { 
-  position: relative;
-  /* object-position: right bottom; */
-  object-fit: fill;
-  width: 500px;
-  height: 425px;
-  left: 1150px;
-}
-
-/* botoes da fotos */
-.fotoButton {
-  height: 50px;
-  width: 200px;
-  padding: 0 20px;
-  border: 0;
-  text-align: center;
-  color: #1697c9;
-  background-color : #fff ;
-  border: 2px solid;
-  border-color: black;
-  border-radius: 5px;
-}
-
-.fotoButton:hover {
-  color: #fff;
-  background-color :#10769e ;
-}
-
-#ante {
-}
-
-#prox {
-  /*
-  position: absolute;
-  left: 100px;
-  top 150px;
-  */
-}
-
-/* menus */
 .submenu {
-  /*
-  border: solid;
-  border-color: black;
-*/
-  
   background-color: white; 
   color: #1697c9;
   padding: 15px 32px;
@@ -97,8 +20,7 @@ body {
 
 .submenu:hover
 {
-  color: #fff;
-  background-color :#10769e;
+  background-color :#10769e ;
 }
 
 /* grids dos botoes */
@@ -123,13 +45,26 @@ body {
   grid-row-end: 3;
 }
 
+#content {
+  grid-column-start: 2;
+  grid-column-end: 20;
+  grid-row-start: 4;
+  grid-row-end: 20;
 
-/* textos */
-#texto {
-    font-size: 1.5rem;
-    font-family: Helvetica, Arial, sans-serif;text-align: center;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+
+  background-color: white; 
 }
 
-#titulo {
-  text-align: center;
+#foto {
+  grid-column-start: 14;
+  grid-column-end: 19;
+  grid-row-start: 6;
+  grid-row-end: 17;
+  height: 100%;
+  width: 100%;
 }
+
+ 
