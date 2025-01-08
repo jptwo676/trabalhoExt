@@ -14,17 +14,23 @@ const imgs = [img1, img2, img3];
 //mudar img
 //TODO debugar essa merda 
 var index = 0;
-function imgChange(direcao) {
+function imgChange(direcao) 
+{
   console.log("Running func, index = " + index);
-  if(direcao = "ante") {
+  if(direcao == "ante") 
+  {
     console.log("Running ante, index = " + index);
-    if(index > 0) {
+    if(index > 0) 
+    {
       index--;
     }
     imgAtual.src = imgs[index];
-  } else if(direcao = "prox") {
+  } 
+  else if(direcao == "prox") 
+  {
     console.log("Running prox, index = " + index);
-      if(index < 3) {
+      if(index < 3) 
+    {
         index++;
       } 
     imgAtual.src = imgs[index];
