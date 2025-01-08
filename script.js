@@ -16,10 +16,8 @@ const imgs = [img1, img2, img3];
 var index = 0;
 function imgChange(direcao) 
 {
-  console.log("Running func, index = " + index);
   if(direcao == "ante") 
   {
-    console.log("Running ante, index = " + index);
     if(index > 0) 
     {
       index--;
@@ -28,8 +26,6 @@ function imgChange(direcao)
   } 
   else if(direcao == "prox") 
   {
-    console.log("Running prox, index = " + index);
-    console.log("array size = " + imgs.length);
     if(index < imgs.length - 1)
     {
       index++;
@@ -44,15 +40,16 @@ function imgChange(direcao)
   info.textContent = "O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas.";
 
 //inicio
-botaoInicio.addEventListener("click", function(){
-  console.log("inicio on");
+botaoInicio.addEventListener("click", function()
+  {
   titulo.textContent = "Início"
   info.textContent = "O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas.";
   
 });
 
 //informações
-botaoInfo.addEventListener("click", function(){
+botaoInfo.addEventListener("click", function()
+  {
   info.setAttribute('style', 'white-space: pre;');
 
   titulo.textContent = "Informações";
@@ -62,17 +59,13 @@ botaoInfo.addEventListener("click", function(){
   info.textContent += "Com a ajuda fornecida o projeto presta tambem atendimento odontologico e faz visitas regulares as casas cadastradas para";
   info.textContent += "se certificar que as orientações estão sendo seguidas e ajudar no que for necessario. \r\n";
 
-  console.log("info on");
-
 });
 
 //contato
-botaoContato.addEventListener("click", function(){
-
+botaoContato.addEventListener("click", function()
+  {
   info.setAttribute('style', 'white-space: pre;');
-
   titulo.textContent = "Entre em contato"
-  console.log("contato on")
 
   info.textContent = "As reuniões acontecem quinzenalmente no Centro Comunitario do Jardim Tupi. \r\n";
   info.textContent += "Você pode entrar em contato para sanar suas duvidas em nosso instagram ou pelo telefone. \r\n";
