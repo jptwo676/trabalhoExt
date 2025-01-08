@@ -67,4 +67,39 @@
   width: 100%;
 }
 
+
+/* botoes das fotos */
+.fotoButton {
+  padding: 0 20px;
+  border: 0;
+  color: #1697c9;
+  background-color : #fff ;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.fotoButton:hover {
+  color: #fff;
+  background-color :#10769e ;
+}
  
+#ante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 17;
+  grid-column-end: 18;
+  grid-row-start: 18;
+  grid-row-end: 19;
+}
+
+#prox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 18;
+  grid-row-end: 19;
+}
