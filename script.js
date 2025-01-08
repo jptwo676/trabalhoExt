@@ -17,14 +17,16 @@ var index = 0;
 function imgChange(direcao) {
   console.log("Running func, index = " + index);
   if(direcao = "ante") {
+    console.log("Running ante, index = " + index);
     if(index > 0) {
       index--;
     }
     imgAtual.src = imgs[index];
   } else if(direcao = "prox") {
-    if(index < 3) {
-      index++;
-    } 
+    console.log("Running prox, index = " + index);
+      if(index < 3) {
+        index++;
+      } 
     imgAtual.src = imgs[index];
   }
 }

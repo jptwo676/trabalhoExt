@@ -101,8 +101,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-column-start: 17;
-  grid-column-end: 18;
+  grid-column-start: 15;
+  grid-column-end: 16;
   grid-row-start: 18;
   grid-row-end: 19;
 }
@@ -111,8 +111,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-column-start: 15;
-  grid-column-end: 16;
+  grid-column-start: 17;
+  grid-column-end: 18;
   grid-row-start: 18;
   grid-row-end: 19;
 }
