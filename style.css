@@ -2,12 +2,14 @@ body {
   margin: 0;
 }
 
+/* wrapper global */
 #gridWrapper {
   display: grid;
   grid-template-columns: repeat(20, 5vw);
   grid-template-rows: repeat(20, 5vh);;
 }
 
+/* submenus do top */
 .submenu {
   background-color: white; 
   color: #1697c9;
@@ -55,15 +57,29 @@ body {
   grid-column-end: 20;
   grid-row-start: 4;
   grid-row-end: 20;
-
   border: solid;
   border-color: black;
   border-radius: 20px;
-
   background-color: white; 
 }
 
-#contentText {
+#text
+{
+  font: 1.2rem "Fira Sans", sans-serif;
+}
+
+#titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 2.8rem "Fira Sans", sans-serif;
+  grid-column-start: 8;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#textArea {
   grid-column-start: 3;
   grid-column-end: 13;
   grid-row-start: 7;
@@ -120,12 +136,3 @@ body {
   grid-row-end: 19;
 }
 
-#titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-column-start: 8;
-  grid-column-end: 12;
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
