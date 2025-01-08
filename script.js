@@ -29,10 +29,11 @@ function imgChange(direcao)
   else if(direcao == "prox") 
   {
     console.log("Running prox, index = " + index);
-      if(index < 3) 
+    console.log("array size = " + imgs.length);
+    if(index < imgs.length - 1)
     {
-        index++;
-      } 
+      index++;
+    } 
     imgAtual.src = imgs[index];
   }
 }
