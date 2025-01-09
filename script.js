@@ -42,8 +42,10 @@ function imgChange(direcao)
 //inicio
 botaoInicio.addEventListener("click", function()
   {
-  titulo.textContent = "Início"
-  info.textContent = "O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas.";
+  info.setAttribute('style', 'white-space: pre;');
+  titulo.textContent = "Início";
+  info.textContent = "O projeto acamados + amados é uma iniciativa não governamental \r\n";
+  info.textContent += "que apoia familias e cuidadores de pessoas acamadas.";
   
 });
 
@@ -53,8 +55,7 @@ botaoInfo.addEventListener("click", function()
   info.setAttribute('style', 'white-space: pre;');
 
   titulo.textContent = "Informações";
-  info.textContent = "O projeto Acamados + Amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas. \r\n";
-  info.textContent += "Através de reuniões quinzenais o projeto vem distribuindo fraldas, alimentos equipamentos médicos e também servindo como um grupo de apoio para os acamados e seus cuidadores. \r\n";
+  info.textContent = "Através de reuniões quinzenais o projeto vem distribuindo fraldas, alimentos equipamentos médicos e também servindo como um grupo de apoio para os acamados e seus cuidadores. \r\n";
   info.textContent += "Idealizado por Dona Inês, o projeto existe a mais de 15 anos e conta com  varios voluntarios e parceiros. \r\n";
   info.textContent += "Com a ajuda fornecida o projeto presta tambem atendimento odontologico e faz visitas regulares as casas cadastradas para";
   info.textContent += "se certificar que as orientações estão sendo seguidas e ajudar no que for necessario. \r\n";
