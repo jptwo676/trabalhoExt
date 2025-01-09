@@ -65,7 +65,7 @@ botaoInfo.addEventListener("click", function()
 botaoContato.addEventListener("click", function()
   {
   info.setAttribute('style', 'white-space: pre;');
-  titulo.textContent = "Entre em contato"
+  titulo.textContent = "Contato"
 
   info.textContent = "As reuniões acontecem quinzenalmente no Centro Comunitario do Jardim Tupi. \r\n";
   info.textContent += "Você pode entrar em contato para sanar suas duvidas em nosso instagram ou pelo telefone. \r\n";
