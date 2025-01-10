@@ -12,7 +12,6 @@ var img3 = "stock3.jpg";
 const imgs = [img1, img2, img3];
 
 //mudar img
-//TODO debugar essa merda 
 var index = 0;
 function imgChange(direcao) 
 {
@@ -37,18 +36,24 @@ function imgChange(direcao)
 
 //seta o conteudo de inicio
   titulo.textContent = "Início"
-  info.textContent = "O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas.";
+  info.setAttribute('style', 'white-space: pre;');
+info.textContent = `O projeto acamados + amados é uma iniciativa não governamental que apoia 
+famílias e cuidadores de pessoas acamadas.
+
+Com a ajuda de doadores e voluntários o projeto existe há quinze anos e marca
+presença na comunidade do Jardim Tupi,
+onde ocorrem as reuniões e onde o projeto nasceu.`
 
 //inicio
 botaoInicio.addEventListener("click", function()
   {
   info.setAttribute('style', 'white-space: pre;');
   titulo.textContent = "Início";
-  info.textContent = "O projeto acamados + amados é uma iniciativa não governamental \r\n";
-  info.textContent += "que apoia familias e cuidadores de pessoas acamadas.";
-  
-});
+  info.textContent = `O projeto acamados + amados é uma iniciativa não governamental que apoia familias e cuidadores de pessoas acamadas.
+  Com a ajuda de doadores e voluntarios o projeto existe ha quinze anos e marca presença
+  na comunidade do Jardim Tupi, onde ocorrem as reuniões e onde o projeto nasceu.`
 
+});
 //informações
 botaoInfo.addEventListener("click", function()
   {
