@@ -85,7 +85,7 @@ botaoContato.addEventListener("click", function()
   info.setAttribute('style', 'white-space: pre;');
   titulo.textContent = "Contato"
 
-  info.textContent = `    As reuniões acontecem quinzenalmente no Centro Comunitário do Jardim Tupi.
+  info.textContent = `   As reuniões acontecem quinzenalmente no Centro Comunitário do Jardim Tupi.
    Para uma primeira visita leve documento com foto e um comprovante de residencia.
   
    Local: Centro Comunitário do Jardim Tupi, Cambé - Paraná
