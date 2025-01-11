@@ -88,7 +88,9 @@ botaoContato.addEventListener("click", function()
   info.textContent = `   As reuniões acontecem quinzenalmente no Centro Comunitário do Jardim Tupi.
    Para uma primeira visita leve documento com foto e um comprovante de residencia.
   
-   Local: Centro Comunitário do Jardim Tupi, Cambé - Paraná
+   Local: Centro Comunitário do Jardim Tupi
+   R. Tupinambás, 2 - Jardim Tupi, Cambé - PR, 86183-190 
+
    Horário de funcionamento: 08:00 até 12:00 em sábados alternados
    Duvidas? Entre em contato via nosso instagram.
    Instagram: @acamadosmaisamadosofc`
