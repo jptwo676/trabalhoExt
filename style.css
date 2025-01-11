@@ -26,6 +26,7 @@ body {
 
 .submenu:hover
 {
+  color: #fff;
   background-color :#10769e ;
 }
 
@@ -68,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: 4vw "Fira Sans", sans-serif;
+  font: 3.6vw "Fira Sans", sans-serif;
   grid-column-start: 8;
   grid-column-end: 12;
   grid-row-start: 4;
