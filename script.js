@@ -5,14 +5,17 @@ var info = document.getElementById("text");
 var titulo = document.getElementById("titulo");
 
 var imgAtual = document.getElementById("foto");
-var img1 = "stock1.png";
-var img2 = "stock2.jpg";
-var img3 = "stock3.jpg";
+var img1 = "imagens/donaCelia.jpeg";
+var img2 = "imagens/donaInes.png";
+var img3 = "imagens/julia.jpeg";
+var img4 = "imagens/coletaFraldas.jpeg";
+var logo = "imagens/logo.png";
 
-const imgs = [img1, img2, img3];
+const imgs = [logo, img1, img2, img3, img4];
 
 //mudar img
 var index = 0;
+imgAtual.src = imgs[index];
 function imgChange(direcao) 
 {
   if(direcao == "ante") 
