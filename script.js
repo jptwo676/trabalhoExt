@@ -4,6 +4,7 @@ var botaoContato = document.getElementById("contato");
 var info = document.getElementById("text");
 var titulo = document.getElementById("titulo");
 
+// manuseio de imgs
 var imgAtual = document.getElementById("foto");
 var img1 = "imagens/donaCelia.jpeg";
 var img2 = "imagens/donaInes.png";
@@ -13,7 +14,8 @@ var logo = "imagens/logo.png";
 
 const imgs = [logo, img1, img2, img3, img4];
 
-//mudar img
+//mudar img de acordo com botao
+//diminuindo ou aumentando o index
 var index = 0;
 imgAtual.src = imgs[index];
 function imgChange(direcao) 
@@ -47,9 +49,10 @@ famílias e cuidadores de pessoas acamadas.
 presença na comunidade do Jardim Tupi, onde ocorrem as reuniões e onde 
 o projeto nasceu.`
 
-//inicio
+//inicio texto
 botaoInicio.addEventListener("click", function()
   {
+  //atribui formatação no css pra manter tudo estruturado
   info.setAttribute('style', 'white-space: pre;');
   titulo.textContent = "Início";
   info.textContent = `    O projeto acamados + amados é uma iniciativa não governamental que apoia 
@@ -60,7 +63,7 @@ presença na comunidade do Jardim Tupi, onde ocorrem as reuniões e onde
 o projeto nasceu.`
 
 });
-//informações
+//informações texto
 botaoInfo.addEventListener("click", function()
   {
   info.setAttribute('style', 'white-space: pre;');
@@ -77,7 +80,7 @@ e faz visitas regulares às casas cadastradas para se certificar que as orienta�
 estão sendo seguidas e ajudar no que for necessário.`;
 });
 
-//contato
+//contato texto
 botaoContato.addEventListener("click", function()
   {
   info.setAttribute('style', 'white-space: pre;');
