@@ -6,13 +6,12 @@ var titulo = document.getElementById("titulo");
 
 // manuseio de imgs
 var imgAtual = document.getElementById("foto");
-var img1 = "imagens/donaCelia.jpeg";
-var img2 = "imagens/donaInes.png";
-var img3 = "imagens/julia.jpeg";
-var img4 = "imagens/coletaFraldas.jpeg";
+var img1 = "imagens/stock1.png";
+var img2 = "imagens/stock2.jpg";
+var img3 = "imagens/stock3.jpg";
 var logo = "imagens/logo.png";
 
-const imgs = [logo, img1, img2, img3, img4];
+const imgs = [logo, img1, img2, img3];
 
 //mudar img de acordo com botao
 //diminuindo ou aumentando o index
